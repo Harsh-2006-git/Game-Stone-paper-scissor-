@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh.Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--heading-->
+    <div id="nav"><pre><h1>Stone       Paper     Scissor</h1></pre></div>
+
+    <!-- option heading-->
+    <div class="op">
+      <div id="Stone" class="opt"><img src="r.png" alt="" /></div>
+      <div id="Paper" class="opt"><img src="p.png" alt="" /></div>
+      <div id="Scissor" class="opt"><img src="s.png" alt="" /></div>
+    </div>
+
+    <!-- result heading-->
+    <div id="score-board">
+      <div class="score">
+        <p class="user">0</p>
+        <p>User score</p>
+        <p class="comp">0</p>
+        <p>Computer score</p>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br />
+    <!-- result temp heading-->
+    <div"><p id="footer">play your game</p></div>
+    <script src="script.js"></script>
+   
+    <button id="reset">Reset!</button>
+    <script>
+        document.getElementById("reset").addEventListener("click", function () {
+            us.innerText = 0;
+            cs.innerText = 0;
+            msg.innerText = "Scores reset. Let's play!";
+            msg.style.Color = "white";
+            msg.style.backgroundColor = "black";
+        });
+</script>
+  </body>
+</html>

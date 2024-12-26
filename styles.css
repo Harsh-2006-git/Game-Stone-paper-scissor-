@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#nav {
+  background-color: rgb(30, 30, 82);
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: url(".png") no-repeat center center/cover;
+}
+.opt {
+  height: 210px;
+  width: 210px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 50px;
+  object-fit: cover;
+  overflow: hidden;
+}
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.opt:hover {
+  opacity: 50%;
+  cursor: pointer;
+  border: black;
+}
+.op {
+  border: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+#score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.user,
+.comp {
+  font-size: 3rem;
+}
+#footer.container {
+  margin-top: -2rem;
+}
+#footer {
+  background-color: rgb(30, 30, 82);
+  color: rgb(248, 247, 245);
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: -2rem;
+  border-radius: 50px;
+  height: 70px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 22rem;
+}
+.opt:hover img {
+  border: 2px solid black; /* Add a black border to the img inside the hovered .opt div */
+}
+#reset {
+  background-color: rgb(86, 149, 201);
+  color: rgb(17, 12, 1);
+  font-size: 2rem;
+  padding: 0rem;
+  border-radius: 50px;
+  height: 50px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+button:hover {
+  border: 2px solid black;
+  opacity: 70%;
+}
+button {
+  margin-top: 20px;
+}
