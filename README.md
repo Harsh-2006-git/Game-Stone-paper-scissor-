@@ -1,2 +1,3 @@
 # Game-Stone-paper-scissor-
-game
+game https://harsh-2006-git.github.io/Game-Stone-paper-scissor-/
+
